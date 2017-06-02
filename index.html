@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<div>Andy</div>
+<form id="user-info">
+    姓名: <input type="text" name="name"/>
+    博客: <input type="text" name="password"/>
+    <!--此处按钮在form表单里面的,button必须指定type为button,不然会触发表单提交,也可以在
+    onclick事件上加return false;
+    -->
+    <button type="button" onclick="javascript:submitData()">提交1</button>
+</form>
+<button onclick="javascript:submitData()">提交</button>
+<script type="text/javascript">
+    //syncRequest()
+    //asyncRequest();
+    requestByHeader()
+    //getByURLParam();
+</script>
+</body>
+</html>
